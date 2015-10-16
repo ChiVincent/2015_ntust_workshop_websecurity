@@ -18,7 +18,7 @@
 	</head>
 	<body>
 		<p>
-			<?php include 'lang/'.$_GET['lang']; ?>
+			<?php include $_GET['lang']; ?>
 		</p>
 		<p>
 			<a href="/multiLang.php?lang=zh-TW">繁體中文<br /></a>
